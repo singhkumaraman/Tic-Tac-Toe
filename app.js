@@ -36,25 +36,25 @@ function checkWinner() {
     if (result[0] === result[1] && result[1] === result[2]) {
         if (result[0] !== "" && result[1] !== "" && result[2] !== "") {
             stat.innerHTML = `${result[0]} is the Winner !`;
-            setT(1000, Reset);
+            setTimeout(1000, Reset);
         }
     }
     else if (result[0] == result[3] && result[3] == result[6]) {
         if (result[0] !== "" && result[3] !== "" && result[6] !== "") {
             stat.innerHTML = `${result[0]} is the Winner !`;
-            setT(1000, Reset);
+            setTimeout(1000, Reset);
         }
     }
     else if (result[0] == result[4] && result[4] == result[8]) {
         if (result[0] !== "" && result[4] !== "" && result[8] !== "") {
             stat.innerHTML = `${result[0]} is the Winner !`;
-            setT(1000, Reset);
+            setTimeout(1000, Reset);
         }
     }
     else if (result[3] == result[4] && result[4] == result[5]) {
         if (result[3] !== "" && result[4] !== "" && result[5] !== "") {
             stat.innerHTML = `${result[3]} is the Winner !`;
-            setT(1000, Reset);
+            setTimeout(1000, Reset);
         }
     }
     else if (result[6] == result[7] && result[7] == result[8]) {
