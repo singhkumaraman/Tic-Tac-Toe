@@ -60,7 +60,7 @@ function checkWinner() {
     else if (result[6] == result[7] && result[7] == result[8]) {
         if (result[6] !== "" && result[7] !== "" && result[8] !== "") {
             stat.innerHTML = `${result[6]} is the Winner !`;
-            setT(1000, Reset);
+            setTimeout(1000, Reset);
         }
     }
     else if (result[1] == result[4] && result[4] == result[7]) {
